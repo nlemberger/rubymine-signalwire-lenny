@@ -1,11 +1,15 @@
 # Example RubyMine Setup with WSL and Signalwire "Lenny" Example
 
 ## WARNING
+IANARD: I am not a Ruby developer.  If any of this is silly, educate me!
+
 This was written after the fact, so packages or steps may be missing.  Please let me know and I'll update/add as incorrect or missing pieces are discovered.  Use at your own risk, these are effectively written as notes to myself.
+
+Easier option: Win the ClueCon grand prize and use that.  This is easier on MacBook.
 
 ## Setup Machine
 * Install Windows Subsystem for Linux
-* Install build packages in Ubuntu 
+* Install build packages in the Ubuntu shell
 
   `build-essential npm rake ruby-dev ruby-full zlib1g zlib1g-dev zlibc git`
 * Install common gems
