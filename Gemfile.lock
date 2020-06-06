@@ -19,7 +19,6 @@ GEM
       mini_portile2 (~> 2.4.0)
     nokogiri (1.10.3-x86-mingw32)
       mini_portile2 (~> 2.4.0)
-    random-port (0.3.2)
     signalwire (2.1.2)
       concurrent-ruby (~> 1.1.5)
       faye-websocket (~> 0.10.9)
@@ -33,7 +32,7 @@ GEM
     webrick (1.4.2)
     websocket-driver (0.7.1)
       websocket-extensions (>= 0.1.0)
-    websocket-extensions (0.1.4)
+    websocket-extensions (0.1.5)
 
 PLATFORMS
   ruby
@@ -41,7 +40,6 @@ PLATFORMS
 
 DEPENDENCIES
   localtunnel
-  random-port
   signalwire
   webrick
 
